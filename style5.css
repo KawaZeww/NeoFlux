@@ -1,0 +1,217 @@
+#home{
+    margin: 0;
+    background-image: url("../img/img/background-black.jpg");
+    font-family: 'Open Sans', sans-serif;
+}
+
+#profil{
+    background-color: #141414;
+}
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+  *{
+        box-sizing: border-box;
+    }
+nav{
+    background-color: transparent;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+nav img{
+    width: 170px;
+    
+}
+.nav-bar{
+    margin-left: 10px;
+    font-weight: 400;
+}
+form{
+    background-color: rgba(0, 0, 0, .75);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: white;
+    
+}
+input{
+    padding: 16px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 4px;
+    background-color: #333333;
+    font-size: 16px;
+    color: white;
+    opacity: .8;
+    outline: none;
+    
+}
+a{
+    color: white;
+}
+input[type=submit]:hover{
+    background-color: rgb(151, 5, 13);
+    cursor: pointer;
+}
+input[type=email]:focus, input[type=password]:focus{
+    opacity: 1;
+    background-color: rgb(34, 34, 34);
+
+
+
+    opacity: 1;
+    background-color: rgb(34, 34, 34);
+}
+label{
+    color: white;
+    margin-left: 10px;
+}
+input[type=submit]{
+    background-color: rgb(211, 8, 18);
+    font-weight: 700;
+    text-transform: uppercase;
+    
+    
+}
+p{
+    color: #737373;
+}
+.content{
+    
+    margin-top: 150px;
+    margin: 0 10%;
+    
+}
+.row{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+h1{
+    color: white;
+    font-size: 3em;
+}
+a{
+    text-decoration: none;
+}
+.profils img{
+    border: 2px solid transparent;
+    width: 100%;
+}
+
+.profils img,
+.profils p
+{
+    border: 2px solid transparent;
+    transition: all .3s;
+}
+.profils:hover img{
+    border: 2px solid white;
+}
+.profils:hover p{
+    color:white
+}
+.btn{
+    text-transform: uppercase;
+    border: 1px solid #808080;
+    padding: .5em 1.5em;
+    color: #808080;
+    margin-top: 400px;
+    text-align: center;
+    
+
+}
+#profils .row{
+justify-content: space-between;
+
+}
+#films-page{
+    background-color: #141414;
+}
+video{
+    width: 100%;
+}
+#video{
+    height: 600px;
+    overflow: hidden;
+}
+#films-page nav{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+h2{
+    color: white;
+}
+#films-page .row{
+    margin-top: 10px;
+    justify-content: space-between;
+}
+#films-page .content{
+    margin-top: 10px;
+}
+.row div{
+    width: 100%;
+}
+.pl-5{
+    padding-left: 3%;
+}
+button{
+    background-color: rgba(51, 51, 51, 8);
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+button i{
+    margin-right: 5px;
+}
+button:hover{
+    background-color: rgba(51, 51, 51, 1);
+    cursor: pointer;
+}
+.nav-bar a:hover{
+    border-bottom: 2px solid white;
+    
+
+}
+.myButton {
+	background-color:transparent;
+	border-radius:5px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:23px;
+	font-weight:bold;
+	padding:5px 8px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background-color:transparent;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+
